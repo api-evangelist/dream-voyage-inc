@@ -1,22 +1,75 @@
 aid: dream-voyage-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dream-voyage-inc.png
 name: Dream Voyage Inc.
-description: Dream Voyage Inc. is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 and backed by
+  Andreessen Horowitz through its Speedrun accelerator alongside Soma Capital. Led by
+  co-founder and CEO Coco Chen, a former TikTok founding product manager and Tinder PM,
+  the studio builds viral AI-powered consumer applications spanning spiritual wellness,
+  dream interpretation, gaming, and social payments. Its products include SINE Daily
+  Manifest (an AI spiritual-health app offering daily affirmations, astrology, birth-chart
+  analysis, and tarot readings that went viral on TikTok), Dreamore (AI-powered dream
+  interpretation), Vdrop (turning social media into a payment network), and RPS (a
+  Solana-based social game). Dream Voyage ships consumer mobile apps rather than a public
+  developer platform; as of this profile it publishes no developer portal, OpenAPI, SDKs,
+  or documented API surface. This record is a network stub retained for discovery and
+  future enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/dream-voyage-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Soma Capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-finding: >-
+  Consumer AI app studio (mobile apps only). No public developer API, OpenAPI, SDKs,
+  packages, or /.well-known/ discovery surface found across dreamvoyage.co, dreamore.app,
+  or App Store listings on 2026-07-18. Not penalized for absent API artifacts.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- AI
+- Consumer Apps
+- Mobile
+- Astrology
+- Wellness
+- Gaming
+- Social Payments
+- a16z Speedrun
+- Web3
 apis: []
+common:
+- type: Website
+  url: https://dreamvoyage.co
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dreamvoyage
+- type: CompanyProfile
+  url: https://speedrun.a16z.com/companies/dream-voyage
+- type: AppStore
+  url: https://apps.apple.com/us/developer/dream-voyage-inc/id1714126758
+- type: DomainSecurity
+  url: security/dream-voyage-inc-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
