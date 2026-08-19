@@ -37,7 +37,7 @@ x-enrichment-finding: >-
   Consumer AI app studio (mobile apps only). No public developer API, OpenAPI, SDKs,
   packages, or /.well-known/ discovery surface found across dreamvoyage.co, dreamore.app,
   or App Store listings on 2026-07-18. Not penalized for absent API artifacts.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
